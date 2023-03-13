@@ -1,5 +1,9 @@
-FROM quay.io/fedora-ostree-desktops/silverblue:37
+FROM quay.io/fedora-ostree-desktops/silverblue:38
 
-RUN rpm-ostree override remove firefox
-RUN rpm-ostree install vim \
-    neofetch
+RUN rpm-ostree override remove \
+    firefox \
+    firefox-langpacks && \
+    rpm-ostree install \
+    vim \
+    neofetch \
+    htop
