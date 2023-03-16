@@ -4,6 +4,6 @@ RUN rpm-ostree override remove \
     firefox \
     firefox-langpacks && \
     rpm-ostree install \
-    #vim \
+    vim \
     neofetch \
     htop
