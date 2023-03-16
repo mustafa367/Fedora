@@ -6,4 +6,4 @@ RUN rpm-ostree override remove \
     rpm-ostree install \
     neofetch \
     htop \
-    vim
+    #vim
