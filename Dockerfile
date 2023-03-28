@@ -7,4 +7,4 @@ RUN rpm-ostree override remove \
     neofetch \
     htop \
     neovim && \
-    ostree container commit
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
