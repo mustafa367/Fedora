@@ -7,4 +7,6 @@ RUN rpm-ostree override remove \
     neofetch \
     htop \
     neovim && \
+    flatpak --system remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+    flatpak --system install flathub org.mozilla.firefox && \
     ostree container commit
