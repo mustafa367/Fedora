@@ -8,4 +8,4 @@ RUN rpm-ostree override remove \
     htop \
     neovim && \
     flatpak --system remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
-    flatpak --system install -y flathub org.mozilla.firefox
+    sudo flatpak --system install -y flathub org.mozilla.firefox
