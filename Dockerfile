@@ -6,6 +6,4 @@ RUN rpm-ostree override remove \
     rpm-ostree install \
     neofetch \
     htop \
-    neovim && \
-    flatpak --system remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
-    sudo flatpak --system install -y flathub org.mozilla.firefox
+    neovim
