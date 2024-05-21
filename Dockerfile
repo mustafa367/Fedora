@@ -7,5 +7,4 @@ RUN rpm-ostree override remove \
     neofetch \
     htop \
     neovim \
-    borgbackup \
     && ostree container commit
