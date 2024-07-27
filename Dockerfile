@@ -7,4 +7,5 @@ RUN rpm-ostree override remove \
     neofetch \
     htop \
     neovim \
+    git-lfs \
     && ostree container commit
