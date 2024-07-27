@@ -4,8 +4,8 @@ RUN rpm-ostree override remove \
     firefox \
     firefox-langpacks && \
     rpm-ostree install \
-    neofetch \
-    htop \
-    neovim \
     git-lfs \
+    neovim \
+    htop \
+    neofetch \
     && ostree container commit
