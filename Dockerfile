@@ -8,4 +8,5 @@ RUN rpm-ostree override remove \
     neovim \
     htop \
     neofetch \
+    ardour8 \
     && ostree container commit
