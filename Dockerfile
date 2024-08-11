@@ -6,6 +6,7 @@ RUN rpm-ostree override remove \
     rpm-ostree install \
     git-lfs \
     neovim \
+    distrobox \
     htop \
     neofetch \
     ardour8 \
