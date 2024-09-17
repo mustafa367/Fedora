@@ -9,5 +9,4 @@ RUN rpm-ostree override remove \
     distrobox \
     htop \
     neofetch \
-    ardour8 \
     && ostree container commit
