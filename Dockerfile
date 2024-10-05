@@ -8,5 +8,10 @@ RUN rpm-ostree override remove \
     neovim \
     distrobox \
     htop \
+    mozc \
+    fcitx5 \
+    fcitx5-qt5 \
+    fcitx5-mozc \
+    fcitx5-lua \
     neofetch \
     && ostree container commit
