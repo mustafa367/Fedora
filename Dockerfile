@@ -13,6 +13,6 @@ RUN rpm-ostree override remove \
     fcitx5-qt5 \
     fcitx5-mozc \
     fcitx5-lua \
-    fcitx5-configtools \
+    kde-cli-tools  \
     neofetch \
     && ostree container commit
