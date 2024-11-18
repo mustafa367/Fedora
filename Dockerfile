@@ -15,5 +15,4 @@ RUN rpm-ostree override remove \
     fcitx5-lua \
     kde-cli-tools  \
     webkit2gtk4.0 \
-    neofetch \
     && ostree container commit
