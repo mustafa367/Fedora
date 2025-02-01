@@ -10,9 +10,9 @@ RUN rpm-ostree override remove \
     htop \
     mozc \
     fcitx5 \
-    fcitx5-qt5 \
+    fcitx5-gtk \
     fcitx5-mozc \
     fcitx5-lua \
-    kde-cli-tools  \
+    fcitx5-configtool \
     webkit2gtk4.0 \
     && ostree container commit
