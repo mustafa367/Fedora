@@ -14,5 +14,6 @@ RUN rpm-ostree override remove \
     fcitx5-mozc \
     fcitx5-lua \
     fcitx5-configtool \
+    ibus-mozc \
     webkit2gtk4.0 \
     && ostree container commit
