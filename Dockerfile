@@ -8,6 +8,9 @@ RUN rpm-ostree override remove \
     neovim \
     distrobox \
     htop \
+    zsh \
+    
+    # Language Installs
     mozc \
     fcitx5 \
     fcitx5-gtk \
@@ -16,4 +19,5 @@ RUN rpm-ostree override remove \
     fcitx5-configtool \
     ibus-mozc \
     webkit2gtk4.0 \
+    
     && ostree container commit
