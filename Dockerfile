@@ -9,6 +9,7 @@ RUN rpm-ostree override remove \
     distrobox \
     htop \
     zsh \
+    tmux \
     
     # Language Installs
     mozc \
