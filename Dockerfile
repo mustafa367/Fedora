@@ -10,6 +10,7 @@ RUN rpm-ostree override remove \
     htop \
     zsh \
     tmux \
+    kitty \
     
     # Language Installs
     mozc \
