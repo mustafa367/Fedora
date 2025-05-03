@@ -19,6 +19,8 @@ RUN rpm-ostree override remove \
     fcitx5-mozc \
     fcitx5-lua \
     fcitx5-configtool \
+    # fcitx5-qt5 \
+    # kde-cli-tools  \
     ibus-mozc \
     webkit2gtk4.0 \
     
