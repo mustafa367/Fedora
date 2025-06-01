@@ -1,4 +1,4 @@
-FROM quay.io/fedora-ostree-desktops/silverblue:42
+FROM quay.io/fedora-ostree-desktops/kinoite:42
 
 RUN rpm-ostree override remove \
     firefox \
