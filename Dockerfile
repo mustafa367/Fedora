@@ -4,6 +4,7 @@ RUN rpm-ostree override remove \
     firefox \
     firefox-langpacks && \
     rpm-ostree install \
+    g++ \
     git-lfs \
     neovim \
     distrobox \
