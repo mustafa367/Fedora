@@ -1,4 +1,4 @@
-FROM quay.io/fedora-ostree-desktops/kinoite:42
+FROM quay.io/fedora-ostree-desktops/kinoite:latest
 
 RUN rpm-ostree override remove \
     firefox \
@@ -24,5 +24,8 @@ RUN rpm-ostree override remove \
     kde-cli-tools  \
     ibus-mozc \
     webkit2gtk4.0 \
+
+    # Temp
+    libxcrypt-compat \
     
     && ostree container commit
