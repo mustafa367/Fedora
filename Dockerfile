@@ -22,7 +22,6 @@ RUN rpm-ostree override remove \
     fcitx5-qt5 \
     kde-cli-tools  \
     ibus-mozc \
-    webkit2gtk4.0 \
 
     # Temp
     libxcrypt-compat \
