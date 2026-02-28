@@ -10,7 +10,6 @@ RUN rpm-ostree override remove \
     distrobox \
     htop \
     zsh \
-    tmux \
     kitty \
     
     # Language Installs
